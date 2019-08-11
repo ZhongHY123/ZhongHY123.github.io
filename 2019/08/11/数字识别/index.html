@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>我的第一篇博客 | 欢迎！请赐教</title>
+  <title>数字识别 | 欢迎！请赐教</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="第一部分哈哈哈第二部分呵呵呵第三部分嘻嘻嘻  参考文献**codesheep">
-<meta name="keywords" content="博客">
+  <meta name="description" content="mnist数据集：包含了七万多张黑底白字手写数字照片，其中55000张为训练集，5000张为验证集，10000张为测试集。每张大小为28*28像素，图片中纯黑色像素为0，纯白色为1，数据集的长度是10的一维数组，数组中的每个元素索引号表示对应数字出现的概率。在将mnist数据集作为输入喂入神经网络是，需要将数据集中的每一张照片变为长度为784的一维数组。例如：一张数字手写字体图片的长度是784的">
+<meta name="keywords" content="神经网络">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的第一篇博客">
-<meta property="og:url" content="http://yoursite.com/2019/06/30/我的第一篇博客/index.html">
+<meta property="og:title" content="数字识别">
+<meta property="og:url" content="http://yoursite.com/2019/08/11/数字识别/index.html">
 <meta property="og:site_name" content="欢迎！请赐教">
-<meta property="og:description" content="第一部分哈哈哈第二部分呵呵呵第三部分嘻嘻嘻  参考文献**codesheep">
+<meta property="og:description" content="mnist数据集：包含了七万多张黑底白字手写数字照片，其中55000张为训练集，5000张为验证集，10000张为测试集。每张大小为28*28像素，图片中纯黑色像素为0，纯白色为1，数据集的长度是10的一维数组，数组中的每个元素索引号表示对应数字出现的概率。在将mnist数据集作为输入喂入神经网络是，需要将数据集中的每一张照片变为长度为784的一维数组。例如：一张数字手写字体图片的长度是784的">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-08-06T15:53:13.962Z">
+<meta property="og:updated_time" content="2019-08-11T13:34:32.369Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="我的第一篇博客">
-<meta name="twitter:description" content="第一部分哈哈哈第二部分呵呵呵第三部分嘻嘻嘻  参考文献**codesheep">
+<meta name="twitter:title" content="数字识别">
+<meta name="twitter:description" content="mnist数据集：包含了七万多张黑底白字手写数字照片，其中55000张为训练集，5000张为验证集，10000张为测试集。每张大小为28*28像素，图片中纯黑色像素为0，纯白色为1，数据集的长度是10的一维数组，数组中的每个元素索引号表示对应数字出现的概率。在将mnist数据集作为输入喂入神经网络是，需要将数据集中的每一张照片变为长度为784的一维数组。例如：一张数字手写字体图片的长度是784的">
   
     <link rel="alternative" href="/atom.xml" title="欢迎！请赐教" type="application/atom+xml">
   
@@ -159,29 +159,91 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-我的第一篇博客" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-数字识别" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      我的第一篇博客
+      数字识别
     </h1>
   
 
         
-        <a href="/2019/06/30/我的第一篇博客/" class="archive-article-date">
-  	<time datetime="2019-06-30T13:36:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-06-30</time>
+        <a href="/2019/08/11/数字识别/" class="archive-article-date">
+  	<time datetime="2019-08-11T13:34:32.369Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-11</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h2><h2 id="哈哈哈"><a href="#哈哈哈" class="headerlink" title="哈哈哈"></a>哈哈哈</h2><h2 id="第二部分"><a href="#第二部分" class="headerlink" title="第二部分"></a>第二部分</h2><h2 id="呵呵呵"><a href="#呵呵呵" class="headerlink" title="呵呵呵"></a>呵呵呵</h2><h2 id="第三部分"><a href="#第三部分" class="headerlink" title="第三部分"></a>第三部分</h2><p>嘻嘻嘻</p>
-<hr>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p><strong>**</strong>codesheep</p>
+        <ul>
+<li><p>mnist数据集：包含了七万多张黑底白字手写数字照片，其中55000张为训练集，5000张为验证集，10000张为测试集。每张大小为28*28像素，图片中纯黑色像素为0，纯白色为1，数据集的长度是10的一维数组，数组中的每个元素索引号表示对应数字出现的概率。在将mnist数据集作为输入喂入神经网络是，需要将数据集中的每一张照片变为长度为784的一维数组。<br>例如：一张数字手写字体图片的长度是784的一维数组[0,0,0,0.2,0.5,…,0]输入神经网络。该图片对应的标签为[0,0,0,0,0,1,0,0,0,0]，表示数字6出现的概率是100%，那么图片对应的识别结果是6</p>
+</li>
+<li><p>加载数据集：使用input_data模块中的read_data_sets()函数加载</p>
+<p>from tensorflow.examples/tutorials.mnist import input_data<br>mnist = input_data.read_data_sets(‘./data/‘,one_hot = true)，其中第一个参数表示数据集存放的路径，第二个参数表示数据集的存取形式，当为True时，表示以独热码形式存取数据集</p>
+<p>独热码：直观来说就是有多少个状态就有多少比特，而且只有一个比特为1，其他全为0的一种码制</p>
+<p>read_data_sets()函数运行时，会检查指定路径内是否已经有数据集，若没有数据集就会自动下载，并将mnist数据集分为训练、验证、测试集。</p>
+</li>
+<li><p>数据集的操作(以训练集为例)：<br>返回样本数： print “train data size:”,mnist.train.mun_examples</p>
+<p>返回标签集：mnist.train.labels[0],返回第0张图的标签</p>
+<p>返回像素值：mnist.train.images[0]，返回第0张图的像素值</p>
+<p>将数据输入神经网络：xs,ys=mnist.train.next_batch(BATCH_SIZE),其中BATCH_SIZE表示随机从训练集中抽取BATCH_SIZE个样本输入神经网路，并将样本的像素值和标签分别赋值给xs，ys。在本实验中，BATCH_SIZE设置为200，表示一次将200个样本的像素值和标签分别赋值给xs和ys，xs的形状是(200,784),ys的形状是（200，10）</p>
+</li>
+<li><p>实现手写识别的常用函数</p>
+<ul>
+<li>tf.get_collection(“”)：从collection集合中取出全部变量生成一个列表</li>
+<li>tf.add()：将参数列表中对应元素相加</li>
+<li>tf.cast(x,dtype)：将参数x转换为指定数据类型dtype</li>
+<li>tf.equal()：对比两个矩阵或者向量的元素。若对应元素相同则为True。</li>
+<li>tf.random_mean(x,axis)：表示求取矩阵或者张量指定维度的平均值。若不指定第二个参数，则在所有元素中取平均值；若指定为0，则在第一维元素上取平均值，即每一列取平均值；若指定第二个参数为1，则在第二维元素上取平均值，即每一行求平均值。</li>
+<li>tf.argmax(x,axis)：返回指定维度axis下，参数x中最大值索引号</li>
+<li>os.path.join()：表示把参数字符串按照路径命名规则拼接</li>
+<li>tf.Graph().as_default() 函数表示当前图设置为默认图，并返回一个上下文管理器。该函数一般与with关键字搭配使用，应用于将已经定义好的神经网路在计算图中实现</li>
+</ul>
+</li>
+<li><p>神经网路模型的保存：</p>
+<p>在反向传播中，一般会间隔一定轮数保存一次神经网络模型，并产生三个文件:保存当前图结构的.meta文件、保存当前参数名的.index文件、保存当前参数的.data文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">saver= tf.train.Saver()</span><br><span class="line">with tf.Session() as sess:</span><br><span class="line">	for i in range(STEPs):</span><br><span class="line">		if i % lunNum ==0:</span><br><span class="line">			saver.save(sess,os.path.join(....),global_step=global_step)</span><br></pre></td></tr></table></figure>
+<p>其中，tf.train.Saver()用来实例化一个saver对象，在经过指定轮数后，将所有的参数保存到指定路径上，并且在存放网络模型的文件夹名称中注明保存模型时的训练轮数</p>
+</li>
+<li><p>神经网络模型的加载：</p>
+<p>在测试网络效果时，需要将训练好的神经网络模型加载，在tensorflow中：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">with tf.Session() as sess:</span><br><span class="line">	ckpt = tf.train.get_checkpoint_state(存储路径)</span><br><span class="line">	if ckpt and ckpt.model_checkpoint_path:</span><br><span class="line">		saver.restore(sess,ckpt.model_checkpoint_path)</span><br></pre></td></tr></table></figure>
+<p>在with结构中进行加载保存的网络模型，若有，就将其加载到当前的会话中</p>
+</li>
+<li><p>加载模型中的滑动平均值</p>
+<p>在保存模型时，若模型中采用滑动平均，则参数的滑动平均值会保存在相应的文件中，通过实例化saver对象，实现参数滑动平均值的加载，在tensorflow中表示如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ema = tf.train.ExponentialMovingAverage(滑动平均基数)</span><br><span class="line">ema_score = ema.variable_to_restore()</span><br><span class="line">saver = tf.train.Saver(ema_restore)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>神经网络模型的准确率评估方法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">correct_prediction = tf.equal(tf.argmax(y,1),tf.argmax(y_,1))</span><br><span class="line">accuracy = tf.reduce_mean(tf.cast(corrent_prediction,tf.float32))</span><br></pre></td></tr></table></figure>
+<p>y表示在一组数据中的预测结果，形状为[batch_size,10],每一行表示一张图片的识别结果，通过softmax取出每张图片对应向量中最大值对应的索引值，组成[batch,1]。然后通过equal()来判断是否相等，用cast()把True和False转变成1和0，然后用reduce_mean()求平均值，即可得到准确率</p>
+</li>
+</ul>
+<h2 id="前向传播"><a href="#前向传播" class="headerlink" title="前向传播"></a>前向传播</h2><p>需要定义神经网络中的参数w和偏执b，定义由输入到输出的网络结构</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">import tensorflow as tf</span><br><span class="line">INPUT_NODE= 784</span><br><span class="line">OUTPUT_NODE= 10</span><br><span class="line">LAYER1_NODE= 500</span><br><span class="line"></span><br><span class="line">def get_weight(shape,regularizer):</span><br><span class="line">	w = tf.Variable(tf.truncated_normal(shape,stddev=0.1))</span><br><span class="line">	if regularizer != None:</span><br><span class="line">		tf.add_to_collection(&apos;losses&apos;,tf.contrib.layers.l2_regularizer(regularizer)(w)) #正则化</span><br><span class="line">	return w</span><br><span class="line"></span><br><span class="line">def get_bias(shape):</span><br><span class="line">	b = tf.Variable(tf.zeros(shape))</span><br><span class="line">	return b</span><br><span class="line"></span><br><span class="line">def forward(x,regularizer):</span><br><span class="line">	w1 = get_weight([INPUT_NODE,LAYER1_NODE],regularizer)</span><br><span class="line">	b1 = get_bias([LAYER1_NODE])</span><br><span class="line">	y1 = tf.nn.relu(tf.matmul(x,w1)+b1)</span><br><span class="line">	</span><br><span class="line">	w2 = get_weight([LAYER1_NODE,OUTPUT_NODE],regularizer)</span><br><span class="line">	b2 = get_bias([OUTPUT_NODE])</span><br><span class="line">	y = tf.matmul(y1,w2)+b2</span><br><span class="line">	return y</span><br></pre></td></tr></table></figure>
+<h2 id="反向传播"><a href="#反向传播" class="headerlink" title="反向传播"></a>反向传播</h2><p>在反向传播过程中，用tf.placeholder(dtype,shape)来是实现对训练样本x和样本标签y_的占位。y表示在前向传播里面定义的forward()；损失函数loss，一般为预测值与样本值的交叉熵（均方误差）与正则化损失之和。train_step表示利用优化算法对参数模型进行优化，常用的优化算法GradientDescentOptimizer、AdamOptimizer、MomentumOptimizer算法。然后实例化Saver，利用tf.initialize_all_variables().run()来实例化所有参数，利用sess.run()实现模型的训练优化过程，并且每隔一定轮数保存一次模型</p>
+<h3 id="正则化、指数衰减学习、滑动平均方法的设置"><a href="#正则化、指数衰减学习、滑动平均方法的设置" class="headerlink" title="正则化、指数衰减学习、滑动平均方法的设置"></a>正则化、指数衰减学习、滑动平均方法的设置</h3><ul>
+<li><p>正则化regularization:首先，需要在前向传播过程中加入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">if regularizer != None:</span><br><span class="line">		tf.add_to_collection(&apos;losses&apos;,tf.contrib.layers.l2_regularizer(regularizer)(w)) #正则化</span><br></pre></td></tr></table></figure>
+<p>然后，需要在反向传播过程中加入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ce = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=y,labels = tf.argmax(y_,1))</span><br><span class="line">	cem = tf.reduce_mean(ce)</span><br><span class="line">	loss = cem+tf.add_n(tf.get_collection(&apos;losses&apos;))</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>指数衰减学习率</p>
+<p>保证了前期快速收敛，后期不会有太大波动</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">learning_rate = tf.train.exponential_decay(LEARNING_RATE_BASE,global_step,mnist.train.num_examples/BATCH_SIZE,LEARNING_RATE_DECAY,staircase = True)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>滑动平均</p>
+<p>使得具有更好的泛化能力</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ema = tf.train.ExponentialMovingAverage(MOVING_AVERAGE_DECAY,global_step)</span><br><span class="line">	ema_op = ema.apply(tf.trainable_variables())</span><br><span class="line">	with tf.control_dependencies([train_step,ema_op]):</span><br><span class="line">		train_op=tf.no_op(name=&quot;train&quot;)</span><br></pre></td></tr></table></figure>
+<p>下面是全部代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line">import tensorflow as tf</span><br><span class="line">from tensorflow.examples.tutorials.mnist import input_data</span><br><span class="line">import mnist_forward</span><br><span class="line">import os</span><br><span class="line"></span><br><span class="line">BATCH_SIZE = 200</span><br><span class="line">LEARNING_RATE_BASE = 0.1</span><br><span class="line">LEARNING_RATE_DECAY = 0.99</span><br><span class="line">REGULARIZER = 0.0001</span><br><span class="line">STEPS = 50000</span><br><span class="line">MOVING_AVERAGE_DECAY = 0.99</span><br><span class="line">MODEL_SAVE_PATH = &quot;./model/&quot;</span><br><span class="line">MODEL_NAME = &quot;mnist_model&quot;</span><br><span class="line"></span><br><span class="line">def backward(mnist):</span><br><span class="line">	x= tf.placeholder(tf.float32,[None,mnist_forward.INPUT_NODE])</span><br><span class="line">	y_ = tf.placeholder(tf.float32,[None,mnist_forward.OUTPUT_NODE])</span><br><span class="line">	y = mnist_forward.forward(x,REGULARIZER)</span><br><span class="line">	global_step = tf.Variable(0,trainable = False)</span><br><span class="line">	ce = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=y,labels = tf.argmax(y_,1))</span><br><span class="line">	cem = tf.reduce_mean(ce)</span><br><span class="line">	loss = cem+tf.add_n(tf.get_collection(&apos;losses&apos;))</span><br><span class="line">	</span><br><span class="line">	learning_rate = tf.train.exponential_decay(LEARNING_RATE_BASE,global_step,mnist.train.num_examples/BATCH_SIZE,LEARNING_RATE_DECAY,staircase = True)</span><br><span class="line">	train_step = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss,global_step=global_step)</span><br><span class="line">	ema = tf.train.ExponentialMovingAverage(MOVING_AVERAGE_DECAY,global_step)</span><br><span class="line">	ema_op = ema.apply(tf.trainable_variables())</span><br><span class="line">	with tf.control_dependencies([train_step,ema_op]):</span><br><span class="line">		train_op=tf.no_op(name=&quot;train&quot;)</span><br><span class="line">	saver=tf.train.Saver()</span><br><span class="line">	with tf.Session() as sess:</span><br><span class="line">		init_op = tf.global_variables_initializer()</span><br><span class="line">		sess.run(init_op)</span><br><span class="line">		for i in range(STEPS):</span><br><span class="line">			xs,ys = mnist.train.next_batch(BATCH_SIZE)</span><br><span class="line">			_,loss_value,step = sess.run([train_op,loss,global_step],feed_dict=&#123;x:xs,y_:ys&#125;)</span><br><span class="line">			if i%1000==0:</span><br><span class="line">				print(&quot;After %d training strp(s),loss on training batch is %g.&quot;%(step,loss_value))</span><br><span class="line">				saver.save(sess,os.path.join(MODEL_SAVE_PATH,MODEL_NAME),global_step=global_step)</span><br><span class="line"></span><br><span class="line">def main():</span><br><span class="line">	mnist = input_data.read_data_sets(&quot;./data/&quot;,one_hot = True)</span><br><span class="line">	print (&quot;gggg&quot;)</span><br><span class="line">	backward(mnist)</span><br><span class="line"></span><br><span class="line">if __name__ == &apos;__main__&apos;:</span><br><span class="line">	main()</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">import time</span><br><span class="line">import tensorflow as tf</span><br><span class="line">from tensorflow.examples.tutorials.mnist import input_data</span><br><span class="line">import mnist_forward</span><br><span class="line">import mnist_backward</span><br><span class="line">TEST_INTERVAL_SECS = 5</span><br><span class="line"></span><br><span class="line">def test(mnist):</span><br><span class="line">	with tf.Graph().as_default() as g:</span><br><span class="line">		x= tf.placeholder(tf.float32,[None,mnist_forward.INPUT_NODE]) #占位</span><br><span class="line">		y_ = tf.placeholder(tf.float32,[None,mnist_forward.OUTPUT_NODE])</span><br><span class="line">		y = mnist_forward.forward(x,None)  #前向传播得到的y</span><br><span class="line">		ema = tf.train.ExponentialMovingAverage(mnist_backward.MOVING_AVERAGE_DECAY)</span><br><span class="line">		ema_restore = ema.variables_to_restore()</span><br><span class="line">		saver = tf.train.Saver(ema_restore)</span><br><span class="line">		correct_prediction = tf.equal(tf.argmax(y,1),tf.argmax(y_,1))</span><br><span class="line">		accuracy = tf.reduce_mean(tf.cast(correct_prediction,tf.float32))</span><br><span class="line">		</span><br><span class="line">		while True:</span><br><span class="line">			with tf.Session() as sess:</span><br><span class="line">				#加载训练好的模型</span><br><span class="line">				ckpt = tf.train.get_checkpoint_state(mnist_backward.MODEL_SAVE_PATH)</span><br><span class="line">				if ckpt and ckpt.model_checkpoint_path:</span><br><span class="line">					saver.restore(sess,ckpt.model_checkpoint_path)#恢复会话</span><br><span class="line">					</span><br><span class="line">					global_step = ckpt.model_checkpoint_path.split(&apos;/&apos;)[-1].split(&apos;-&apos;)[-1]  #恢复轮数</span><br><span class="line">					accuracy_score = sess.run(accuracy,feed_dict=&#123;x:mnist.test.images,y_:mnist.test.labels&#125;)  #计算准确率</span><br><span class="line">					print(&quot;After %s training step(s),test accuracy = %g&quot;%(global_step,accuracy_score))</span><br><span class="line">				else:</span><br><span class="line">					print(&quot;NO checkpoint file found&quot;)</span><br><span class="line">					return</span><br><span class="line">			time.sleep(TEST_INTERVAL_SECS)</span><br><span class="line">def main():</span><br><span class="line">	mnist = mnist = input_data.read_data_sets(&quot;./data/&quot;,one_hot = True)</span><br><span class="line">	test(mnist)</span><br><span class="line">if __name__ == &apos;__main__&apos;:</span><br><span class="line">	main()</span><br></pre></td></tr></table></figure>
 
       
 
@@ -221,13 +283,24 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">神经网络</a>
         		</li>
       		
 		</ul>
 	</div>
 
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/神经网络//" class="article-tag-list-link color1">-神经网络</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
 
@@ -277,7 +350,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/06/30/我的第一篇博客/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/08/11/数字识别/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -291,15 +364,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/08/04/克里金估计技术的基本原理/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          克里金估计技术的基本原理
-        
-      </div>
-    </a>
   
+    <a href="/2019/08/09/搭建神经网络优化/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">神经网络优化</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
